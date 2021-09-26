@@ -12,18 +12,18 @@
   
 	a. Build FP-Tree
 	
-		(1) Traverse the data set for the first time, get the frequency of each item, remove the items that do not meet the minimum support, and generate a head pointer table
-  		(2) Sort the elements of each transaction in the data set, and remove the items that do not meet the minimum support
+		* Traverse the data set for the first time, get the frequency of each item, remove the items that do not meet the minimum support, and generate a head pointer table
+  		* Sort the elements of each transaction in the data set, and remove the items that do not meet the minimum support
   
-   		(3) Traverse the data set, for each transaction, if FP-Tree does not have the path, add the path, and if there is, add the count to the Item
+   		* Traverse the data set, for each transaction, if FP-Tree does not have the path, add the path, and if there is, add the count to the Item
   
    	b. Mining frequent itemsets from FP-Tree
   
-   		(1) For each Item in the head pointer table, extract the condition mode base, that is, the path set ending with item
+   		* For each Item in the head pointer table, extract the condition mode base, that is, the path set ending with item
 		
-   		(2) Construction condition FP-Tree
+   		* Construction condition FP-Tree
 		
-   		(3) Find frequent itemsets recursively, knowing that the condition FP-Tree has only one item set
+   		* Find frequent itemsets recursively, knowing that the condition FP-Tree has only one item set
   
 #### result:
 
