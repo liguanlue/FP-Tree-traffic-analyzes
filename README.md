@@ -4,13 +4,14 @@
 ### Algorithm steps: 
  1. Process the original data
  
-  a. Delete the invalid data 
+   a. Delete the invalid data 
  
-  b. Extract the taxi position of each time period to form the transaction item set
+   b. Extract the taxi position of each time period to form the transaction item set
   
-2. Using FP-Tree algorithm for frequent pattern mining
+ 2. Using FP-Tree algorithm for frequent pattern mining
   
    a. Build FP-Tree
+   
    (1) Traverse the data set for the first time, get the frequency of each item, remove the items that do not meet the minimum support, and generate a head pointer table
   
    (2) Sort the elements of each transaction in the data set, and remove the items that do not meet the minimum support
