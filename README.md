@@ -13,6 +13,7 @@
 	a. Build FP-Tree
 	
 		1. Traverse the data set for the first time, get the frequency of each item, remove the items that do not meet the minimum support, and generate a head pointer table
+
   		2. Sort the elements of each transaction in the data set, and remove the items that do not meet the minimum support
   
    		3. Traverse the data set, for each transaction, if FP-Tree does not have the path, add the path, and if there is, add the count to the Item
