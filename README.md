@@ -32,6 +32,7 @@
 
 Heat map showing frequent patterns:
 
+![image](https://github.com/liguanlue/FP-Tree-traffic-analyzes/blob/main/IMG/frequent%20pattern.png)
 
 2. The result of association rule mining, such as result.txt, shows the relevance of the position of the taxi at the same time.
  
