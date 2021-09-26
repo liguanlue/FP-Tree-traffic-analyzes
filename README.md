@@ -11,6 +11,7 @@
  2. Using FP-Tree algorithm for frequent pattern mining
   
 	a. Build FP-Tree
+	
 		(1) Traverse the data set for the first time, get the frequency of each item, remove the items that do not meet the minimum support, and generate a head pointer table
   		(2) Sort the elements of each transaction in the data set, and remove the items that do not meet the minimum support
   
@@ -19,9 +20,9 @@
    	b. Mining frequent itemsets from FP-Tree
   
    		(1) For each Item in the head pointer table, extract the condition mode base, that is, the path set ending with item
-  
+		
    		(2) Construction condition FP-Tree
-  
+		
    		(3) Find frequent itemsets recursively, knowing that the condition FP-Tree has only one item set
   
 #### result:
