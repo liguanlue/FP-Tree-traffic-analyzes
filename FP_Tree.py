@@ -28,10 +28,10 @@ pprint(data)
 
 class node(object):
     def __init__(self,val,char):
-        self.val = val #当前节点计数
-        self.char = char  #节点字符
+        self.val = val 
+        self.char = char  
         self.children = {}
-        self.next = None #链表，连接到另一个孩子处
+        self.next = None 
         self.father = None
         self.visit = 0
 
