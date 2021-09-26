@@ -16,7 +16,7 @@
   (2) Construction condition FP-Tree
   (3) Find frequent itemsets recursively, knowing that the condition FP-Tree has only one item set
   
-result:
+#### result:
 1. The result of frequent pattern mining, such as result.txt, shows the locations of taxis that appear more frequently in the same period of time
 
 Heat map showing frequent patterns:
